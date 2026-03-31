@@ -154,9 +154,9 @@ export default function About() {
                   style={{ background: 'linear-gradient(135deg, #3B82F6, #EC4899)' }}
                 />
                 <div className="absolute inset-1 rounded-full bg-[#0a0a1a] flex items-center justify-center overflow-hidden">
-                  {/* ✅ ПРАВИЛЬНЫЙ ПУТЬ */}
+                  {/* ✅ ИСПРАВЛЕНО */}
                   <img
-                    src="/images/avatar.jpg"
+                    src="public/images/avatar.jpg"
                     alt="Ратибор"
                     className="w-full h-full object-cover"
                     onLoad={() => setAvatarLoaded(true)}

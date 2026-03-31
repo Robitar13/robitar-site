@@ -48,10 +48,10 @@ const projects: Project[] = [
 • Расширенные игровые возможности
 
 Робот разработан от 3D-моделирования в KOMPAS-3D до программирования микроконтроллера. Корпус напечатан на 3D-принтере. OLED-дисплей отображает анимированные эмоции, погоду и время. Светодиодная RGB лента помогает выражать эмоции и показывает статус заказов на OZON и Wildberries. `,
-    // ✅ ПРАВИЛЬНЫЕ ПУТИ
+    // ✅ ИСПРАВЛЕНО
     images: [
-      '/images/projects/robot-v2-1.jpg',
-      '/images/projects/robot-v2-2.jpg',
+      'public/images/projects/robot-v2-1.jpg',
+      'public/images/projects/robot-v2-2.jpg',
     ],
     tags: ['Arduino', 'Super Mini', 'MPU6050', 'OLED 0.96"', '3D Печать', 'KOMPAS-3D', 'C++'],
     links: {
@@ -89,10 +89,10 @@ const projects: Project[] = [
 • 3D-печати на FDM-принтере
 • Пайки электронных компонентов
 • Программирования Arduino`,
-    // ✅ ПРАВИЛЬНЫЕ ПУТИ
+    // ✅ ИСПРАВЛЕНО
     images: [
-      '/images/projects/robot-v1-1.jpg',
-      '/images/projects/robot-v1-2.jpg',
+      'public/images/projects/robot-v1-1.jpg',
+      'public/images/projects/robot-v1-2.jpg',
     ],
     tags: ['Arduino', 'OLED', '3D Печать', 'KOMPAS-3D'],
     links: {
@@ -131,9 +131,9 @@ const projects: Project[] = [
 • Механику и прочностные расчёты
 • Управление энергопотреблением
 • Безопасность высоковольтных систем`,
-    // ✅ ПРАВИЛЬНЫЙ ПУТЬ
+    // ✅ ИСПРАВЛЕНО
     images: [
-      '/images/projects/ev-1.jpg',
+      'public/images/projects/ev-1.jpg',
     ],
     tags: ['Электротехника', 'BMS', 'Li-Ion', 'BLDC', 'Силовая электроника'],
     links: {
@@ -164,10 +164,10 @@ const projects: Project[] = [
 • Подготовлена презентация с защитой проекта
 
 Проект позволил изучить принципы работы тепловых и энергетических систем, а также получить опыт промышленного проектирования.`,
-    // ✅ ПРАВИЛЬНЫЕ ПУТИ
+    // ✅ ИСПРАВЛЕНО
     images: [
-      '/images/projects/tpp-1.jpg',
-      '/images/projects/tpp-2.jpg',
+      'public/images/projects/tpp-1.jpg',
+      'public/images/projects/tpp-2.jpg',
     ],
     tags: ['SolidWorks', 'CAD', 'BIM', '3D Печать', 'Инженерия', 'Теплотехника'],
     links: {
@@ -197,9 +197,9 @@ const projects: Project[] = [
 • Применение в реальном времени
 
 Исследование охватывает теоретические основы и практическое применение технологий компьютерного зрения в различных отраслях: от автономного транспорта до медицинской диагностики.`,
-    // ✅ ПРАВИЛЬНЫЙ ПУТЬ
+    // ✅ ИСПРАВЛЕНО
     images: [
-      '/images/projects/ai-1.jpg',
+      'public/images/projects/ai-1.jpg',
     ],
     tags: ['CNN', 'YOLO', 'Computer Vision', 'Python', 'Deep Learning', 'AI', 'РИНЦ'],
     links: {
@@ -229,9 +229,9 @@ const projects: Project[] = [
 • Монослои (2D-материалы)
 
 Проведён анализ эффективности, экономической целесообразности и экологических преимуществ различных технологий. Рассмотрен мировой опыт внедрения солнечных технологий в Германии, США, Китае, Индии и других странах.`,
-    // ✅ ПРАВИЛЬНЫЙ ПУТЬ
+    // ✅ ИСПРАВЛЕНО
     images: [
-      '/images/projects/solar-1.jpg',
+      'public/images/projects/solar-1.jpg',
     ],
     tags: ['Фотовольтаика', 'Перовскиты', 'ВИЭ', 'Исследование', 'РИНЦ', 'Экология'],
     links: {
