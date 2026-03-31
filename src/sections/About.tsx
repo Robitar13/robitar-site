@@ -154,6 +154,7 @@ export default function About() {
                   style={{ background: 'linear-gradient(135deg, #3B82F6, #EC4899)' }}
                 />
                 <div className="absolute inset-1 rounded-full bg-[#0a0a1a] flex items-center justify-center overflow-hidden">
+                  {/* ✅ ПРАВИЛЬНЫЙ ПУТЬ */}
                   <img
                     src="/images/avatar.jpg"
                     alt="Ратибор"
