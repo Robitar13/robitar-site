@@ -50,8 +50,8 @@ const projects: Project[] = [
 Робот разработан от 3D-моделирования в KOMPAS-3D до программирования микроконтроллера. Корпус напечатан на 3D-принтере. OLED-дисплей отображает анимированные эмоции, погоду и время. Светодиодная RGB лента помогает выражать эмоции и показывает статус заказов на OZON и Wildberries. `,
     // ✅ ИСПРАВЛЕНО
     images: [
-      '../images/projects/robot-v2-1.jpg',
-      '../images/projects/robot-v2-2.jpg',
+      'dist/images/projects/robot-v2-1.jpg',
+      '/dist/images/projects/robot-v2-2.jpg',
     ],
     tags: ['Arduino', 'Super Mini', 'MPU6050', 'OLED 0.96"', '3D Печать', 'KOMPAS-3D', 'C++'],
     links: {
@@ -91,8 +91,8 @@ const projects: Project[] = [
 • Программирования Arduino`,
     // ✅ ИСПРАВЛЕНО
     images: [
-      '../images/projects/robot-v1-1.jpg',
-      '../images/projects/robot-v1-2.jpg',
+      'public/images/projects/robot-v1-1.jpg',
+      '/public/images/projects/robot-v1-2.jpg',
     ],
     tags: ['Arduino', 'OLED', '3D Печать', 'KOMPAS-3D'],
     links: {
@@ -133,7 +133,7 @@ const projects: Project[] = [
 • Безопасность высоковольтных систем`,
     // ✅ ИСПРАВЛЕНО
     images: [
-      '../images/projects/ev-1.jpg',
+      'images/projects/ev-1.jpg',
     ],
     tags: ['Электротехника', 'BMS', 'Li-Ion', 'BLDC', 'Силовая электроника'],
     links: {
@@ -166,8 +166,8 @@ const projects: Project[] = [
 Проект позволил изучить принципы работы тепловых и энергетических систем, а также получить опыт промышленного проектирования.`,
     // ✅ ИСПРАВЛЕНО
     images: [
-      '../images/projects/tpp-1.jpg',
-      '../images/projects/tpp-2.jpg',
+      './images/projects/tpp-1.jpg',
+      '/images/projects/tpp-2.jpg',
     ],
     tags: ['SolidWorks', 'CAD', 'BIM', '3D Печать', 'Инженерия', 'Теплотехника'],
     links: {
