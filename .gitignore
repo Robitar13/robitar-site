@@ -1,5 +1,4 @@
 node_modules/
-dist/
 .env
 .env.local
 *.log
@@ -7,8 +6,3 @@ dist/
 Thumbs.db
 .vscode/
 .idea/
-# В .gitignore добавьте:
-!dist/images/
-!dist/images/*
-!dist/images/projects/
-!dist/images/projects/*
