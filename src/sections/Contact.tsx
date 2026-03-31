@@ -67,7 +67,6 @@ export default function Contact() {
         </h2>
 
         <div className="contact-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          {/* VK карточка */}
           <a 
             href="https://vk.com/id756067906"
             target="_blank"
@@ -110,7 +109,6 @@ export default function Contact() {
             </div>
           </a>
 
-          {/* Telegram карточка */}
           <a 
             href="https://t.me/Robitar13"
             target="_blank"
@@ -161,7 +159,6 @@ export default function Contact() {
             </div>
           </a>
 
-          {/* Email карточка */}
           <button 
             onClick={copyEmail}
             className="contact-card glass-card p-6 relative overflow-hidden group hover:scale-105 transition-transform duration-300 w-full"
@@ -211,7 +208,6 @@ export default function Contact() {
           </button>
         </div>
 
-        {/* Блок сотрудничества */}
         <div className="mt-16 text-center">
           <div className="glass-card p-8 max-w-2xl mx-auto relative overflow-hidden">
             <div 

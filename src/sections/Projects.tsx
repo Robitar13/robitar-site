@@ -47,7 +47,7 @@ const projects: Project[] = [
 • Светодиодная RGB лента
 • Расширенные игровые возможности
 
-Робот разработан от 3D-моделирования в KOMPAS-3D до программирования микроконтроллера. Корпус напечатан на 3D-принтере. OLED-дисплей отображает анимированные эмоции и время. Светодиодная RGB лента помогает выражать эмоции и показывает статус заказов на OZON и Wildberries. `,
+Робот разработан от 3D-моделирования в KOMPAS-3D до программирования микроконтроллера. Корпус напечатан на 3D-принтере. OLED-дисплей отображает анимированные эмоции, погоду и время. Светодиодная RGB лента помогает выражать эмоции и показывает статус заказов на OZON и Wildberries. `,
     images: [
       '/images/projects/robot-v2-1.jpg',
       '/images/projects/robot-v2-2.jpg',
@@ -167,7 +167,7 @@ const projects: Project[] = [
     ],
     tags: ['SolidWorks', 'CAD', 'BIM', '3D Печать', 'Инженерия', 'Теплотехника'],
     links: {
-      presentation: 'https://disk.yandex.ru/d/D49xchVsZe-3aA',
+      presentation: 'https://disk.yandex.ru/i/84J-7c6Ksx3dew',
     },
     features: [
       'Полная 3D-модель в SolidWorks',
