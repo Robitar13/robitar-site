@@ -4,15 +4,21 @@ import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [react()],
-  base: '/robitar-site/',  // ✅ Должно быть!
+  base: '/robitar-site/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  publicDir: 'public',
   build: {
-    outDir: 'dist',
-    assetsDir: 'assets',
-  },
-  publicDir: 'public',  // ✅ Убедитесь что это есть!
+    manifest: true,  // ← ДОБАВЬТЕ ЭТО
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name]-[hash].js`,
+        chunkFileNames: `assets/[name]-[hash].js`,
+        assetFileNames: `assets/[name]-[hash].[ext]`
+      }
+    }
+  }
 });
