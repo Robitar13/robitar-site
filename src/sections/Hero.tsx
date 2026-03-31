@@ -224,6 +224,7 @@ export default function Hero() {
                   </span>
                 </div>
 
+{/* ацу */}
                 <h3 
                   className="text-2xl sm:text-3xl font-bold text-white"
                   style={{ fontFamily: "'Press Start 2P', monospace" }}
