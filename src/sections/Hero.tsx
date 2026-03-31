@@ -210,7 +210,7 @@ export default function Hero() {
               <div className="relative h-64 sm:h-80 mb-6 overflow-hidden rounded-lg">
                 {/* ✅ ИСПРАВЛЕНО */}
                 <img
-                  src="images/hero-robot.jpg"
+                  src="/images/hero-robot.jpg"
                   alt="Настольный робот"
                   className="w-full h-full object-cover"
                 />

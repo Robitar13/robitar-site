@@ -156,7 +156,7 @@ export default function About() {
                 <div className="absolute inset-1 rounded-full bg-[#0a0a1a] flex items-center justify-center overflow-hidden">
                   {/* ✅ ИСПРАВЛЕНО */}
                   <img
-                    src="/images/avatar.jpg"
+                    src="\images\avatar.jpg"
                     alt="Ратибор"
                     className="w-full h-full object-cover"
                     onLoad={() => setAvatarLoaded(true)}
