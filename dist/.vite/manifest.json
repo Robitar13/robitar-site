@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "file": "assets/index-DOXVVOqr.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "src/components/three/ParticleBackground.tsx",
+      "src/components/ui-custom/CustomCursor.tsx"
+    ],
+    "css": [
+      "assets/index-Bhs3I8vr.css"
+    ]
+  },
+  "src/components/three/ParticleBackground.tsx": {
+    "file": "assets/ParticleBackground-j3802HKQ.js",
+    "name": "ParticleBackground",
+    "src": "src/components/three/ParticleBackground.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/components/ui-custom/CustomCursor.tsx": {
+    "file": "assets/CustomCursor-C9L79A-P.js",
+    "name": "CustomCursor",
+    "src": "src/components/ui-custom/CustomCursor.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  }
+}
